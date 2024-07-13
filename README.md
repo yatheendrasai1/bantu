@@ -1,2 +1,3 @@
-# bantu
-batnu is a tracker app
+# My Node.js App
+
+A Node.js project with MongoDB connection.
