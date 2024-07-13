@@ -1,5 +1,6 @@
 const NotificationLog = require('../models/notificationLogModel');
 
+
 const getNotificationLogs = async (req, res) => {
     try {
         const logs = await NotificationLog.find({});
