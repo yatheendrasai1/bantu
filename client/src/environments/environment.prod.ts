@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://bantu-listen.vercel.app'
+    apiUrl: 'https://be-bantu.vercel.app/'
 };
