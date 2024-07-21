@@ -8,7 +8,7 @@ import { environment } from '../environments/environment.prod';
 })
 export class NotificationLogService {
 
-  private apiUrl = environment.apiUrl+'/notificationlogs';
+  private apiUrl = environment.apiUrl+'/api/notificationlogs';
 
   constructor(private http: HttpClient) {
     console.log("kkkkkkkkkkkkkkkkkkkkk");
