@@ -1,0 +1,39 @@
+  .log-card {
+    background-color: rgb(6, 48, 63); /* Set the background color to black */
+    color: rgb(38, 170, 202); /* Ensure text color is visible on a black background */
+    margin-bottom: 8px; /* Space between cards */
+    width: 100%; /* Make sure the card takes full width of its container */
+    display: flex;
+    flex-direction: column;
+  }
+  mat-list-item {
+    margin-bottom: 8px; /* Space between list items */
+    display: contents;
+  }
+  mat-card-header {
+    background-color: #1483a4; /* Optional: Different background for the header */
+    color: rgb(128, 188, 199); /* Ensure header text is visible */
+  }
+  
+  mat-card-content {
+    color: rgb(157, 207, 218); /* Ensure content text is visible */
+  }
+
+  .scrollable-container {
+    height: 500px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  }
+
+  .scrollable-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: #074b4b; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+  background: #065060; /* Darker color when hovering */
+}
