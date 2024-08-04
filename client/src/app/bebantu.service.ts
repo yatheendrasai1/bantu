@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BebantuService {
 
-  private apiUrl = 'http://localhost:5171/api'; // Replace with your actual API URL
+  private apiUrl = environment.apiUrl+'/api'; // Replace with your actual API URL
 
   constructor(private http: HttpClient) { }
 
